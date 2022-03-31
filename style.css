@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: 'Rock Salt', cursive;
+}
+
+body {
+  background-image: url("sheetMusic.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: initial;
+  background-size: cover;
+  margin: auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+}
+
+#mainTitle {
+  padding-top: 500px;
+  padding-right: 250px;
+  font-size: 30px;
+}
+
+#textDisplay {
+  padding-right: 42px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+
+button {
+  background-color: transparent;
+  border: 5px solid;
+  border-color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  padding: 15px 15px 15px;
+
+}
+
+#keys {
+  padding-right: 20px;
+}
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+}
+
+/* flexes the items contained in the body - so all elements on the page  */
+/* body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}  */
